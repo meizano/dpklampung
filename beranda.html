@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dinas Perpustakaan dan Kearsipan Provinsi Lampung</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="UPT Perpustakaan Universitas Lampung">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 60px;
+            /* 60px to make the container go all the way to the bottom of the topbar */
+            background-color: #f7c94e;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+    </style>
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="ico/favicon.png">
+</head>
+
+<body>
+
+    <div class="container"/>
+        <div class="row"/>
+        <div class="col-xs-12 col-sm-4 text-left"/>
+    <img id="dnn_Header_dnnLOGO_imgLogo" src="contoh-beranda-nlb-gov-sg_files/logo_nlb.png" alt="National Library Board"/>
+     <div class="col-xs-12 col-sm-4 text-left"/>
+    <a href="http://www.gov.sg/" title="Singapore Government (This link will open in a new window)" class="clearfix" target="_blank"><img src="contoh-beranda-nlb-gov-sg_files/logo_singov.png" alt="Singapore Goverment Logo" width="222" height="35">
+      </a>
+    <div class="col-xs-12 col-sm-4 text-left"/>
+    <div id="singov-logo" class="span6 text-right except-phone">
+				<a href="http://www.gov.sg/" title="Singapore Government (This link will open in a new window)" class="clearfix" target="_blank"><img src="/Portals/0/Skins/NLB/assets/logo_singov.png" alt="Singapore Goverment Logo" width="222" height="35"></a>
+				<ul id="singov-links" class="pull-right except-phone">
+					<li><a href="/ContactUs.aspx" title="link to Contact Info">Contact Info</a></li>
+					<li><a href="/Feedback.aspx" title="link to Feedback">Feedback</a></li>
+					<li><a href="/servicelisting.aspx" title="link to Services">e-Services</a></li>
+					<li><a href="/nlbsitemap.aspx" title="link to Sitemap">Sitemap</a></li>
+					<li><a href="http://www.ifaq.gov.sg/nlb/apps/fcd_faqmain.aspx" title="FAQs (This link will open in a new window)" target="_blank">FAQs</a></li>
+					<li><a href="/Careers/Careers.aspx" title="link to Careers">Careers</a></li>
+
+				</ul>
+
+				 <!-- Search Box Here -->
+				<div class="searchTypeahead pull-right except-phone no-suggest">
+				<label id="fsearchlabel" for="serMemq" style="font-size: 0; float: left;">Search</label>
+				<nlb-suggest data-catalogue="yes" data-withinsiteurl="http://www.nlb.gov.sg/SearchResults.aspx?Search={0}" data-autosuggest="no" data-default="catalogue" class="ng-isolate-scope"><div class="suggest-container"> <span class="twitter-typeahead" style="position: relative; display: inline-block; direction: ltr;"><input type="text" class="inputTextQuick ng-scope tt-hint" maxlength="200" style="font-style: italic; position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);" aria-labelledby="fsearchlabel" readonly="" autocomplete="off" spellcheck="false" tabindex="-1"><input type="text" id="serMemq" name="q" class="inputTextQuick ng-scope tt-input" maxlength="200" placeholder="Find Books, Music, Film" style="font-style: italic; position: relative; vertical-align: top; background-color: transparent;" aria-labelledby="fsearchlabel" autocomplete="off" spellcheck="false" dir="auto"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: quattrocento, arial; font-size: 14px; font-style: italic; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="dropdown-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; right: auto;"><div class="tt-dataset-catalogue"></div><div class="tt-dataset-onesearch"></div><div class="tt-dataset-within"></div></span></span></div></nlb-suggest>
+
+				<input type="button" id="serMemBtn" value="Search" class="inputSubmitQuick" onclick="evalSearch();">
+
+				</div>
+			</div>
+</body>
+
+</html>
